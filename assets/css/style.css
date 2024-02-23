@@ -1,0 +1,62 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: auto;
+  text-align: center;
+  font-size: 28px;
+  padding: 35px 0;
+}
+
+.playerBg {
+  margin: auto;
+  text-align: center;
+  width: 48%;
+  padding: 25px 50px;
+  font-size: 28px;
+  color: #fff;
+  background-color: rgb(8, 8, 8);
+  border-radius: 4%;
+}
+.playerBg img {
+  border-radius: 10%;
+  border: 12px solid rgb(5, 5, 5);
+}
+.playerBg .trackInfo {
+  text-align: left;
+  margin: 12px 0;
+}
+.playerBg .trackInfo h3 {
+  font-size: 30px;
+}
+.playerBg .trackInfo h6 {
+  font-size: 20px;
+  margin: 8px 0;
+  color: rgba(255, 255, 255, 0.7176470588);
+}
+.playerBg .progressBar input {
+  width: 100%;
+}
+.playerBg .progressBar .timers {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7176470588);
+}
+.playerBg .inputBtns {
+  margin: 12px 0;
+}
+.playerBg .inputBtns .btn svg {
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 650px) {
+  .playerBg {
+    width: 90%;
+    padding: 60px 40px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,69 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;margin: 0;
+    box-sizing: border-box;
+}
+header{
+    margin: auto;
+    text-align: center;
+    font-size: 28px;
+    padding: 35px 0;
+}
+.playerBg{
+    margin: auto;
+    text-align: center;
+    width: 48%;
+    padding: 25px 50px;
+    font-size: 28px;
+    color: #fff;
+    background-color: rgb(8, 8, 8);
+    // padding: 25px 0;
+    border-radius: 4%;
+    img{
+        border-radius: 10%;
+        border: 12px solid rgb(5, 5, 5);
+    }
+    .trackInfo{
+        text-align: left;
+        margin: 12px 0;
+        h3{
+            font-size: 30px;
+            
+            // color: rgb(34, 197, 97);
+        }h6{
+            font-size: 20px;
+            margin: 8px 0;
+            // font-weight: 450;
+            color: #ffffffb7;
+        }
+    }
+    .progressBar{
+        input{
+            width: 100%;
+        }
+        .timers{
+            display: flex;
+            justify-content: space-between;
+            font-size: 14px;
+            color: #ffffffb7;
+        }
+    }
+    .inputBtns{
+        margin: 12px 0;
+        .btn{
+            svg{
+                cursor: pointer;
+                 
+            }
+            
+        }
+    }
+}
+
+@media only screen and (min-width: 200px) and (max-width: 650px) {
+    .playerBg{
+        width: 90%;
+        padding: 60px 40px;
+    }
+    
+}

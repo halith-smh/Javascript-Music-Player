@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body style="background-color: rgb(5, 5, 5);">
+    <header style="color: rgb(34, 197, 97);">
+        <b>MUSIC PLAYER</b>
+    </header>
+    <section class="playerBg">
+        <div class="info">
+            <img id="trackImg" src="" alt="" width="260">
+            <div class="trackInfo">
+                <h3></h3>
+                <h6></h6>
+            </div>
+        </div>
+        <div class="progressBar">
+            <input onclick="progressClick(event)" type="range" name="" value="0" id="progressBar">
+            <div class="timers">
+                <div id="start"></div>
+                <div id="stop"></div>
+            </div>
+
+        </div>
+
+        <div class="inputBtns">
+            <div class="btn">
+                <svg id="prev" xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 24 24"
+                    style="fill: #fff">
+                    <path d="m12.707 7.707-1.414-1.414L5.586 12l5.707 5.707 1.414-1.414L8.414 12z"></path>
+                    <path d="M16.293 6.293 10.586 12l5.707 5.707 1.414-1.414L13.414 12l4.293-4.293z"></path>
+                </svg>
+
+
+                <span id="toogler">
+                    <svg class="play" id="toggle" xmlns="http://www.w3.org/2000/svg" width="53" height="53"
+                        viewBox="0 0 24 24" style="fill: rgb(34, 197, 97);">
+                        <path
+                            d="M12 22c5.514 0 10-4.486 10-10S17.514 2 12 2 2 6.486 2 12s4.486 10 10 10zM10 7l6 5-6 5V7z">
+                        </path>
+                    </svg>
+
+                    <svg class="pause" id="tooglePause" xmlns="http://www.w3.org/2000/svg" width="53" height="53"
+                        viewBox="0 0 24 24" style="fill: #fff; display: none;">
+                        <path
+                            d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm0 18c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8z">
+                        </path>
+                        <path d="M13 9h2v6h-2zM9 9h2v6H9z"></path>
+                    </svg>
+                </span>
+
+
+
+
+                <svg id="next" xmlns="http://www.w3.org/2000/svg" width="53" height="53" viewBox="0 0 24 24"
+                    style="fill: #fff">
+                    <path d="M10.296 7.71 14.621 12l-4.325 4.29 1.408 1.42L17.461 12l-5.757-5.71z"></path>
+                    <path d="M6.704 6.29 5.296 7.71 9.621 12l-4.325 4.29 1.408 1.42L12.461 12z"></path>
+                </svg>
+            </div>
+        </div>
+    </section>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

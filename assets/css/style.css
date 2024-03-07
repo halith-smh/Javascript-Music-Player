@@ -18,8 +18,8 @@ header {
   width: 48%;
   padding: 25px 50px;
   font-size: 28px;
-  color: #fff;
-  background-color: rgb(8, 8, 8);
+  color: #f5f4f4;
+  background-color: #131312;
   border-radius: 4%;
 }
 .playerBg img {
@@ -58,5 +58,24 @@ header {
   .playerBg {
     width: 90%;
     padding: 60px 40px;
+    height: 70vh;
+  }
+  .playerBg img {
+    width: 230px;
+  }
+  .playerBg h3 {
+    font-size: 22px !important;
+  }
+  .playerBg h6 {
+    font-size: 16px !important;
+  }
+  .playerBg input {
+    height: 6px;
+  }
+  .playerBg .timers {
+    font-size: 12px !important;
+  }
+  .playerBg .inputBtns {
+    margin: 14px 0;
   }
 }/*# sourceMappingURL=style.css.map */

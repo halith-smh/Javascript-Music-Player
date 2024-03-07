@@ -1,69 +1,102 @@
-*{
+* {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 0;margin: 0;
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
-header{
+
+header {
     margin: auto;
     text-align: center;
     font-size: 28px;
     padding: 35px 0;
 }
-.playerBg{
+
+.playerBg {
     margin: auto;
     text-align: center;
     width: 48%;
     padding: 25px 50px;
     font-size: 28px;
-    color: #fff;
-    background-color: rgb(8, 8, 8);
+    color: #f5f4f4;
+    background-color: #131312;
     // padding: 25px 0;
     border-radius: 4%;
-    img{
+
+    img {
         border-radius: 10%;
         border: 12px solid rgb(5, 5, 5);
     }
-    .trackInfo{
+
+    .trackInfo {
         text-align: left;
         margin: 12px 0;
-        h3{
+
+        h3 {
             font-size: 30px;
-            
+
             // color: rgb(34, 197, 97);
-        }h6{
+        }
+
+        h6 {
             font-size: 20px;
             margin: 8px 0;
             // font-weight: 450;
             color: #ffffffb7;
         }
     }
-    .progressBar{
-        input{
-            width: 100%;
+
+    .progressBar {
+        input {
+           width: 100%;
         }
-        .timers{
+
+        .timers {
             display: flex;
             justify-content: space-between;
             font-size: 14px;
             color: #ffffffb7;
         }
     }
-    .inputBtns{
+
+    .inputBtns {
         margin: 12px 0;
-        .btn{
-            svg{
+
+        .btn {
+            svg {
                 cursor: pointer;
-                 
+
             }
-            
+
         }
     }
 }
 
 @media only screen and (min-width: 200px) and (max-width: 650px) {
-    .playerBg{
+    .playerBg {
         width: 90%;
         padding: 60px 40px;
+        height: 70vh;
+        
+        img{
+            width: 230px;
+        }
+
+        h3{
+            font-size: 22px !important;
+        }
+        h6{
+            font-size: 16px !important;
+        }
+        input{
+            height: 6px;
+        }
+        .timers {
+            font-size: 12px !important;
+        }
+        .inputBtns {
+            margin: 14px 0;
+        }
     }
-    
+
 }

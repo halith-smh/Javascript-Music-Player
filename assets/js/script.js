@@ -42,6 +42,9 @@ function loadTrack(index) {
     document.querySelector('#trackImg').src = `./assets/img/${track.cover}`;
     document.querySelector('h3').textContent = track.name;
     document.querySelector('h6').textContent = track.artist;
+
+    //next song label
+    document.querySelector('.next-song').textContent = tracks[index+1].name
 }
 
 function playTrack() {
